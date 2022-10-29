@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -14,6 +15,16 @@ public class PlayerController : MonoBehaviour
     private int count;
     private float movementX;
     private float movementY;
+    float movementZ;
+
+    bool justJumped;
+    bool isGrounded;
+
+    public string scene;
+    public string gameOverScene;
+    public string mainMenuScene;
+
+    public static string previousScene;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +33,8 @@ public class PlayerController : MonoBehaviour
         count = 0;
         SetCountText();
         winTextObject.SetActive(false);
+        justJumped = false;
+        isGrounded = true;
     }
 
     void OnMove(InputValue movementValue)
@@ -43,8 +56,34 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        Vector3 movement = new Vector3(movementX, 0.0f, movementY);
+        movementZ = 0.0f;
+
+        if (justJumped)
+        {
+            movementZ = speed;
+            justJumped = false;
+        }
+        Vector3 movement = new Vector3(movementX, movementZ * 2.0f, movementY);
         rb.AddForce(movement * speed);
+    }
+
+    private void Update()
+    {
+        if(!justJumped && Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        {
+            justJumped = true;
+            isGrounded = false;
+        }
+        if(GameObject.Find("Player").transform.position.y < -15)
+        {
+            previousScene = SceneManager.GetActiveScene().name;
+            SceneManager.LoadScene(gameOverScene);
+        }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(mainMenuScene);
+        }
+
     }
 
     private void OnTriggerEnter(Collider other)
@@ -57,5 +96,18 @@ public class PlayerController : MonoBehaviour
             
         }
 
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = true;
+        }
+        if (collision.gameObject.CompareTag("Finish"))
+        {
+            SceneManager.LoadScene(scene);
+        }
+        
     }
 }
