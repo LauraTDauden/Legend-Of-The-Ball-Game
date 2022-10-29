@@ -22,27 +22,27 @@ This is a Unity 3D game based on the [Roll a ball tutorial](https://learn.unity.
     - Now presenting: the **ESCAPE key** and the revolutionary **Exit** feature! Want to return to the menu screen? Just press the ESC key any time. Want to exit the game? Press the Exit button on the main screen.
 
 ## Sneak peek and tutorial :space_invader:
-- **Main menu screen**
+### **Main menu screen**
 
 ![imagen](https://user-images.githubusercontent.com/84546617/198852774-7ce81bd9-96a9-4436-961c-42865a158cfe.png)
--Press **New game** to start your adventure.
--Press **Exit** to exit the game.
+- Press **New game** to start your adventure.
+- Press **Exit** to exit the game.
 
-- **Level 1**
+### **Level 1**
 
 ![imagen](https://user-images.githubusercontent.com/84546617/198852865-6894f357-c5ba-4d75-87e2-6a1fa88d8607.png)
-    -Reach the end of the level and pick the magic pill
-    -Experiment combining your jumps with the bounciness of the yellow tiles to reach higher and further!
+- Reach the end of the level and pick the magic pill
+- Experiment combining your jumps with the bounciness of the yellow tiles to reach higher and further!
 
-- **Level 2**
+### **Level 2**
 
 ![imagen](https://user-images.githubusercontent.com/84546617/198852974-a4bb2e79-f52d-44e3-a4a8-e39dbf804d8f.png)
--Pick all the magic cubes (12 in total) to win. (It's not that easy!) The count will update on the top left corner.
+- Pick all the magic cubes (12 in total) to win. (It's not that easy!) The count will update on the top left corner.
 
--**Game over**
+### **Game over**
 
 ![imagen](https://user-images.githubusercontent.com/84546617/198853051-150ac4a2-8f60-41b5-b9ff-f89a4148df31.png)
--If you fall, the game ends. You may try again starting on the level you died.
+- If you fall, the game ends. You may try again starting on the level you died.
 
 **Good luck!**
 
