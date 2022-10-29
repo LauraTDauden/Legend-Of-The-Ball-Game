@@ -14,8 +14,7 @@ This is a Unity 3D game based on the [Roll a ball tutorial](https://learn.unity.
 - After learning the basics, I implemented a few other features, such as:
     - A **main menu**!
     - **Jumping!** 
-    (See how our little ball jumps)
-    - **Bouncy surfaces**! (See how the physics change when passing through them and experiment how high you can go by jumping at the right moment)
+    - **Bouncy surfaces**!
     - **Game over** screen! (Oops, you died. But don't worry, you may continue playing from the same level you fell off!)
     - **Change of scenes**: The main menu takes you to the **Level 1** screen. By picking the **magic pill** you may adventure to **Level 2**. If death takes you, you'll get to the magic realm of **Game over**. If you win, you may **play again**!
     - **Music**! Two different variants of the same theme play in the main menu and the rest of the screens.
@@ -32,7 +31,7 @@ This is a Unity 3D game based on the [Roll a ball tutorial](https://learn.unity.
 
 ![imagen](https://user-images.githubusercontent.com/84546617/198852865-6894f357-c5ba-4d75-87e2-6a1fa88d8607.png)
 - Reach the end of the level and pick the magic pill
-- Experiment combining your jumps with the bounciness of the yellow tiles to reach higher and further!
+- Experiment combining your jumps at the right moment with the bounciness of the yellow tiles to reach higher and further! See how the physics change when passing through them and how they can help you to win the game.
 
 ### **Level 2**
 
@@ -53,4 +52,4 @@ This is a Unity 3D game based on the [Roll a ball tutorial](https://learn.unity.
 ## Acknowledgements 💖
 - [Roll a ball Unity tutorial](https://learn.unity.com/project/roll-a-ball)
 - Awesome music by [Brandon Morris](https://opengameart.org/content/loading-screen-loop)
-- Thanks to Tiburcio Cruz! :mortar_board:
+- Thanks to **Tiburcio Cruz**! :mortar_board:
