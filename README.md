@@ -18,6 +18,7 @@ This is a Unity 3D game based on the [Roll a ball tutorial](https://learn.unity.
     - **Game over** screen! (Oops, you died. But don't worry, you may continue playing on the same level you fell off!)
     - **Change of scenes**: The main menu takes you to the **Level 1** screen. By picking the **magic pill** you may adventure to **Level 2**. If death takes you, you'll get to the magic realm of **Game over**. If you win, you may **play again**!
     - **Music**! Two different variants of the same theme play in the main menu and the rest of the screens.
+    - Now presenting: the **ESCAPE key** and the revolutionary **Exit** feature! Want to return to the menu screen? Just press the ESC key any time. Want to exit the game? Press the Exit button on the main screen.
 
 ## Author :black_nib:
 - **Laura Torres Daudén**
@@ -25,3 +26,4 @@ This is a Unity 3D game based on the [Roll a ball tutorial](https://learn.unity.
 ## Acknowledgements 💖
 - [Roll a ball Unity tutorial](https://learn.unity.com/project/roll-a-ball)
 - Awesome music by [Brandon Morris](https://opengameart.org/content/loading-screen-loop)
+- Thanks to Tiburcio Cruz! :mortar_board:
