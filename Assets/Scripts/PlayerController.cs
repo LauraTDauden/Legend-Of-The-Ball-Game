@@ -22,6 +22,9 @@ public class PlayerController : MonoBehaviour
 
     public string scene;
     public string gameOverScene;
+    public string mainMenuScene;
+
+    public static string previousScene;
 
     // Start is called before the first frame update
     void Start()
@@ -73,8 +76,14 @@ public class PlayerController : MonoBehaviour
         }
         if(GameObject.Find("Player").transform.position.y < -15)
         {
+            previousScene = SceneManager.GetActiveScene().name;
             SceneManager.LoadScene(gameOverScene);
         }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(mainMenuScene);
+        }
+
     }
 
     private void OnTriggerEnter(Collider other)
