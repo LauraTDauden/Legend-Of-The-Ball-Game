@@ -41,7 +41,7 @@ This is a Unity 3D game based on the [Roll a ball tutorial](https://learn.unity.
 ### **Game over**
 
 ![imagen](https://user-images.githubusercontent.com/84546617/198853051-150ac4a2-8f60-41b5-b9ff-f89a4148df31.png)
-- If you fall, the game ends. You may try again starting on the level you died.
+- If you fall, the game ends. You may try again starting from the level you died.
 
 **Good luck!**
 
