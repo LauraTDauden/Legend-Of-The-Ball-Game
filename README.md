@@ -4,6 +4,7 @@ This is a Unity 3D game based on the [Roll a ball tutorial](https://learn.unity.
 ## How to play :video_game:
 - To play, either clone the project and open it with Unity or execute the build.
 - You can download it [here](https://drive.google.com/file/d/18UVAzDNjbHRBfhZ0F6eyVev7kBhIywXY/view?usp=sharing). **Enjoy!**
+- To play the new VR edition, you can find the build in the releases section!
 
 ## Built with :hammer:
 - Unity
