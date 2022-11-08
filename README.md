@@ -59,5 +59,6 @@ This is a Unity 3D game based on the [Roll a ball tutorial](https://learn.unity.
 
 ## Acknowledgements 💖
 - [Roll a ball Unity tutorial](https://learn.unity.com/project/roll-a-ball)
+- [Create with VR Unity tutorial](https://learn.unity.com/course/create-with-vr)
 - Awesome music by [Brandon Morris](https://opengameart.org/content/loading-screen-loop)
 - Thanks to **Tiburcio Cruz**! :mortar_board:
