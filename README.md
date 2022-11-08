@@ -23,7 +23,7 @@ This is a Unity 3D game based on the [Roll a ball tutorial](https://learn.unity.
 ## Sneak peek and tutorial :space_invader:
 ### **Main menu screen**
 
-![imagen](https://user-images.githubusercontent.com/84546617/198852774-7ce81bd9-96a9-4436-961c-42865a158cfe.png)
+![imagen](https://user-images.githubusercontent.com/84546617/200656885-762cca33-2abe-465e-9566-de28f141d6f3.png)
 - Press **New game** to start your adventure.
 - Press **Exit** to exit the game.
 
