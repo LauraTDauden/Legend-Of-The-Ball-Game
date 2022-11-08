@@ -19,6 +19,7 @@ This is a Unity 3D game based on the [Roll a ball tutorial](https://learn.unity.
     - **Change of scenes**: The main menu takes you to the **Level 1** screen. By picking the **magic pill** you may adventure to **Level 2**. If death takes you, you'll get to the magic realm of **Game over**. If you win, you may **play again**!
     - **Music**! Two different variants of the same theme play in the main menu and the rest of the screens.
     - Now presenting: the **ESCAPE key** and the revolutionary **Exit** feature! Want to return to the menu screen? Just press the ESC key any time. Want to exit the game? Press the Exit button on the main screen.
+    - **VIRTUAL REALITY MODE**!!
 
 ## Sneak peek and tutorial :space_invader:
 ### **Main menu screen**
@@ -44,6 +45,12 @@ This is a Unity 3D game based on the [Roll a ball tutorial](https://learn.unity.
 - If you fall, the game ends. You may try again starting from the level you died.
 
 **Good luck!**
+
+### **Virtual reality mode**
+![imagen](https://user-images.githubusercontent.com/84546617/200657343-d53ce71d-931b-4f4f-84a5-d9ee89e89179.png)
+- Experiment the magic world of the bouncy balls in VR!
+- Pick balls and throw them! Make them bounce!
+- Teleport to the other side of the screen by pressing on the other yellow surface!
 
 
 ## Author :black_nib:
