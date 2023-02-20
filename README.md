@@ -31,7 +31,7 @@ This is a Unity 3D game based on the [Roll a ball tutorial](https://learn.unity.
 
 ![imagen](https://user-images.githubusercontent.com/84546617/198852865-6894f357-c5ba-4d75-87e2-6a1fa88d8607.png)
 - Reach the end of the level and pick the magic pill
-- Experiment combining your jumps at the right moment with the bounciness of the yellow tiles to reach higher and further! See how the physics change when passing through them and how they can help you to win the game.
+- Experiment combining your jumps at the right moment with the bounciness of the yellow tiles to reach higher and further! See how the physics change when passing through them and how they can help you to win the game. 
 
 ### **Level 2**
 
